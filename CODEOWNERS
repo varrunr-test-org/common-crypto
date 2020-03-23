@@ -1,2 +1,2 @@
-*.java @security-engineering
-*.js @security-engineering
+*.java @varrunr-test-org/security-engineering
+*.js @varrunr-test-org/security-engineering
