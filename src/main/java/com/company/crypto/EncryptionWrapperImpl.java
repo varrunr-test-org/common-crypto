@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class EncryptionWrapperImpl implements EncryptionWrapper {
     private static Random PRNG;
     private static Map<String, SecretKey> KEY_STORE = new ConcurrentHashMap<>();
-    private static final int KEY_SIZE_BITS = 256;
+    private static final int KEY_SIZE_BITS = 128;
     private static final int IV_SIZE_BYTES = 12;
     private static final int GCM_TAG_LENGTH_BYTES = 16;
 
